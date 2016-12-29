@@ -14,6 +14,8 @@
 		CB04CDB61E136BB9002A6B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB04CDB51E136BB9002A6B06 /* Assets.xcassets */; };
 		CB04CDB91E136BB9002A6B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB04CDB71E136BB9002A6B06 /* LaunchScreen.storyboard */; };
 		CB04CDC81E136F3E002A6B06 /* LLSMoreOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04CDC71E136F3E002A6B06 /* LLSMoreOperationController.m */; };
+		CB0669A91E14A5AE00174955 /* UIFont+LSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0669A81E14A5AE00174955 /* UIFont+LSUI.m */; };
+		CB0669AD1E14A64100174955 /* NSString+LSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0669AC1E14A64100174955 /* NSString+LSExtension.m */; };
 		CBFB70BE1E138ACD00DEF0AD /* LLSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB70BD1E138ACD00DEF0AD /* LLSButton.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,10 @@
 		CB04CDBA1E136BB9002A6B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB04CDC61E136F3E002A6B06 /* LLSMoreOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSMoreOperationController.h; sourceTree = "<group>"; };
 		CB04CDC71E136F3E002A6B06 /* LLSMoreOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSMoreOperationController.m; sourceTree = "<group>"; };
+		CB0669A71E14A5AE00174955 /* UIFont+LSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LSUI.h"; sourceTree = "<group>"; };
+		CB0669A81E14A5AE00174955 /* UIFont+LSUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LSUI.m"; sourceTree = "<group>"; };
+		CB0669AB1E14A64100174955 /* NSString+LSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LSExtension.h"; sourceTree = "<group>"; };
+		CB0669AC1E14A64100174955 /* NSString+LSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSExtension.m"; sourceTree = "<group>"; };
 		CBFB70BC1E138ACD00DEF0AD /* LLSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSButton.h; sourceTree = "<group>"; };
 		CBFB70BD1E138ACD00DEF0AD /* LLSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +107,10 @@
 		CBEF544B1E139C50006A6E6B /* UIKitExtension */ = {
 			isa = PBXGroup;
 			children = (
+				CB0669A71E14A5AE00174955 /* UIFont+LSUI.h */,
+				CB0669A81E14A5AE00174955 /* UIFont+LSUI.m */,
+				CB0669AB1E14A64100174955 /* NSString+LSExtension.h */,
+				CB0669AC1E14A64100174955 /* NSString+LSExtension.m */,
 			);
 			path = UIKitExtension;
 			sourceTree = "<group>";
@@ -178,8 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB04CDB11E136BB9002A6B06 /* ViewController.m in Sources */,
+				CB0669A91E14A5AE00174955 /* UIFont+LSUI.m in Sources */,
 				CB04CDAE1E136BB9002A6B06 /* AppDelegate.m in Sources */,
 				CB04CDC81E136F3E002A6B06 /* LLSMoreOperationController.m in Sources */,
+				CB0669AD1E14A64100174955 /* NSString+LSExtension.m in Sources */,
 				CB04CDAB1E136BB9002A6B06 /* main.m in Sources */,
 				CBFB70BE1E138ACD00DEF0AD /* LLSButton.m in Sources */,
 			);
