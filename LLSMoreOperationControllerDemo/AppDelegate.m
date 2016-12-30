@@ -15,6 +15,18 @@
 @implementation AppDelegate
 
 
+ // 隐藏导航栏下方向线条
+// The navigation bar's shadowImage is set to a transparent image.  In
+// addition to providing a custom background image, this removes
+// the grey hairline at the bottom of the navigation bar.  The
+// ExtendedNavBarView will draw its own hairline.
+   // navigationController!.navigationBar.shadowImage = #imageLiteral(resourceName: "TransparentPixel")
+// "Pixel" is a solid white 1x1 image.
+// navigationController!.navigationBar.setBackgroundImage(#imageLiteral(resourceName: "Pixel"), for: .default)
+
+
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
